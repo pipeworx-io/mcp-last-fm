@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-last-fm",
-  "version": "0.1.0",
-  "description": "Last.fm artist/album/track metadata (free API key required)",
+  "version": "0.1.1",
+  "description": "Last.fm MCP.",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-last-fm": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "last-fm"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-last-fm"
+    "url": "git+https://github.com/pipeworx-io/mcp-last-fm.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-d0782f9943d22c41a9cc935ab9fdca1bddfa3a9a52e089ab6c54c15731a46934",
+    "sourceCommit": "adb69d997f82a62e8e22b594488c7d04a227db35"
   }
 }
