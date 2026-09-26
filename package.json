@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-last-fm",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Last.fm MCP.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-d0782f9943d22c41a9cc935ab9fdca1bddfa3a9a52e089ab6c54c15731a46934",
-    "sourceCommit": "adb69d997f82a62e8e22b594488c7d04a227db35"
+    "sourceHash": "v1-aba21e1b0de1b4487a7ea15d70d583219612e70855b5d31bc75d7ae09c53943b",
+    "sourceCommit": "1064560fd9dcd0d6fc2606298c2ba244b3a1fbeb"
   }
 }
